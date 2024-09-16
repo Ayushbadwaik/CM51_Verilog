@@ -32,7 +32,7 @@ module voting_machine_tb;
         #10 candidate = 3'b001; // Another vote for candidate 1
         #10 candidate = 3'b011; // Vote for candidate 3
         #10 candidate = 3'b010; // Another vote for candidate 2
-        
+        #10 candidate = 3'b010; // Another vote for candidate 2
         #10 $finish;
     end
 
